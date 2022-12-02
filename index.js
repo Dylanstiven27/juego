@@ -1,4 +1,5 @@
 let INDEX_PREGUNTA = 0
+let puntaje = 0
 
 cargarPregunta(INDEX_PREGUNTA);
 
@@ -30,6 +31,7 @@ async function seleccionaropcion(index){
             text:"la respuesta ha sido correcta",
             icon: "success",
         });
+        puntaje++
     }else{
         await swal.fire({
             title:"Tu respuesta ha sido incorrecta",
@@ -38,8 +40,12 @@ async function seleccionaropcion(index){
         });
     }
     INDEX_PREGUNTA++;
-    if(INDEX_PREGUNTA>=){
-        
+    if(INDEX_PREGUNTA>=base_de_preguntas.length){
+        INDEX_PREGUNTA = 0;
+        await swal.fire({
+            title:"El juego a terminado",
+            text:`Tu puntaje fue: ${puntaje}/${base_de_preguntas.length}`,
+        });
     }
     cargarPregunta(INDEX_PREGUNTA);
 }
