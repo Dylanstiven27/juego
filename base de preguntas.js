@@ -42,9 +42,16 @@ let base_de_preguntas = [
     },
 
     {
-        pregunta: "¿cuales son los colores de la bandera de colombia?",
-        imagen: "../juego-jc/images/bandera.png",
-        respuesta:"C amarrillo,azul,rojo",
-        distractores:["D verde,azul,amarillo","B amarillo,azul,verde","E rojo,morado,gris","A gris,azul,verde"],
+        pregunta: "¿cuando fue el dia de la independendia de colombia?",
+        imagen: "../juego-jc/images/independencia.png",
+        respuesta:"A jueves 20 de julio 1810",
+        distractores:["D viernes 27 de octubre 2005","B martes 13 de septiembre 2022","E jueves 28 de octubre de 2018","C jueves 28 de agosto 2022"],
+    },
+
+    {
+        pregunta: "¿cuantos paises comparten fronteras terrestres con colombia?",
+        imagen: "../juego-jc/images/tren.jpg.jpg",
+        respuesta:"E 5",
+        distractores:["D 6","B 9","C 10","A 1"],
     },
 ];
