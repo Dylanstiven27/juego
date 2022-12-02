@@ -12,4 +12,11 @@ let base_de_preguntas = [
         respuesta:"0",
         distractores:["1","7","9","6"],
     },
+
+    {
+        pregunta: "jugador de colombia que juega en el liverpool",
+        imagen: "../juego-jc/images/liverpool.jpg",
+        respuesta:"luis diaz",
+        distractores:["cristiano ronaldo","lionel messi"," falcao garcia","david ospina"],
+    },
 ];
