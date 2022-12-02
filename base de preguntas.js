@@ -29,7 +29,7 @@ let base_de_preguntas = [
 
     {
         pregunta: "¿que ciudad tiene tren en colombia?",
-        imagen: "../juego-jc/images/tren.jpg.jpg",
+        imagen: "../juego-jc/images/tren.jpg",
         respuesta:"E medellin",
         distractores:["D buenaventura","B cali","C barranquilla","A santander"],
     },
