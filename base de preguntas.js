@@ -58,7 +58,7 @@ let base_de_preguntas = [
     {
         pregunta: "¿cual es la capital del departamento del amazonas?",
         imagen: "../juego-jc/images/tren.jpg.jpg",
-        respuesta:"B 5",
-        distractores:["D 6","C 9","C 10","A 1"],
+        respuesta:"B leticia",
+        distractores:["D brasil","C cali","C choco","A bogota"],
     },
 ];
