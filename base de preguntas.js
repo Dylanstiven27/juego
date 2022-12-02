@@ -50,8 +50,15 @@ let base_de_preguntas = [
 
     {
         pregunta: "¿cuantos paises comparten fronteras terrestres con colombia?",
-        imagen: "../juego-jc/images/tren.jpg.jpg",
+        imagen: "../juego-jc/images/fronteras.jpg",
         respuesta:"E 5",
         distractores:["D 6","B 9","C 10","A 1"],
+    },
+
+    {
+        pregunta: "¿cual es la capital del departamento del amazonas?",
+        imagen: "../juego-jc/images/tren.jpg.jpg",
+        respuesta:"B 5",
+        distractores:["D 6","C 9","C 10","A 1"],
     },
 ];
