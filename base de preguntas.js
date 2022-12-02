@@ -29,8 +29,22 @@ let base_de_preguntas = [
 
     {
         pregunta: "¿que ciudad tiene tren en colombia?",
-        imagen: "../juego-jc/images/capital.jpg",
+        imagen: "../juego-jc/images/tren.jpg.jpg",
         respuesta:"E medellin",
-        distractores:["D buenaventura","B cali","c barranquilla","A santander"],
+        distractores:["D buenaventura","B cali","C barranquilla","A santander"],
+    },
+
+    {
+        pregunta: "¿cuales son los colores de la bandera de colombia?",
+        imagen: "../juego-jc/images/bandera.png",
+        respuesta:"C amarrillo,azul,rojo",
+        distractores:["D verde,azul,amarillo","B amarillo,azul,verde","E rojo,morado,gris","A gris,azul,verde"],
+    },
+
+    {
+        pregunta: "¿cuales son los colores de la bandera de colombia?",
+        imagen: "../juego-jc/images/bandera.png",
+        respuesta:"C amarrillo,azul,rojo",
+        distractores:["D verde,azul,amarillo","B amarillo,azul,verde","E rojo,morado,gris","A gris,azul,verde"],
     },
 ];
