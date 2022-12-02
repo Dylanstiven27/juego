@@ -57,8 +57,15 @@ let base_de_preguntas = [
 
     {
         pregunta: "¿cual es la capital del departamento del amazonas?",
-        imagen: "../juego-jc/images/tren.jpg.jpg",
+        imagen: "../juego-jc/images/departamento.jpg",
         respuesta:"B leticia",
         distractores:["D brasil","C cali","C choco","A bogota"],
+    },
+
+    {
+        pregunta: "Los siguientes territorios formaron parte de la Gran Colombia entre 1821 y 1830",
+        imagen: "../juego-jc/images/gran colombia.jpg",
+        respuesta:"A ecuador,panama,venezuela",
+        distractores:["D estados unidos,canada,brasil,peru","C chile,honduras,ecuador","C ecuador,panama,cali","A cartagena,cali,medellin"],
     },
 ];
