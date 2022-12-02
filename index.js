@@ -41,11 +41,12 @@ async function seleccionaropcion(index){
     }
     INDEX_PREGUNTA++;
     if(INDEX_PREGUNTA>=base_de_preguntas.length){
-        INDEX_PREGUNTA = 0;
         await swal.fire({
             title:"El juego a terminado",
-            text:`Tu puntaje fue: ${puntaje}/${base_de_preguntas.length}`,
+            text:`Tu puntaje fue: "${puntaje}/${base_de_preguntas.length}"`,
         });
+        INDEX_PREGUNTA = 0;
+        puntaje = 0;
     }
     cargarPregunta(INDEX_PREGUNTA);
 }
