@@ -1,0 +1,13 @@
+body{
+    background-image: url(../juego-jc/images/imagen\ de\ inicio.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
