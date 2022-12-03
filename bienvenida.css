@@ -1,4 +1,4 @@
-body{
+body {
     text-align: center;
     background-image: url(../juego-jc/images/bienvenida.gif);
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@ body{
     background-position: center center;
 }
 
-.contenedor_de_texto{
+.contenedor_de_texto {
     color: white;
     margin: 10vw;
 }
