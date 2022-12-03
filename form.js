@@ -49,6 +49,24 @@ function captura() {
     };
 };
 
-function captura2(){
-    
-}
+function captura2() {
+    var apodo = document.getElementById("Nickname").value;
+    var mail = document.getElementById("G-mail").value;
+    var contrasena = document.getElementById("Password").value;
+
+    if (apodo == "") {
+        alert("El apodo debe ser ingresado")
+    }
+
+    if (mail == "") {
+        alert("El correo debe ser ingresado")
+    }
+
+    if (contrasena == "") {
+        alert("La contraseña debe ser ingresado")
+    }
+
+    console.log(apodo);
+    console.log(mail);
+    console.log(contrasena);
+};
