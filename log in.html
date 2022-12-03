@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylelog in.css">
-    <script src="formulario.js"></script>
+    <script src="form.js"></script>
     <title>sing in</title>
 </head>
 
@@ -21,12 +21,12 @@
         <div class="Form" id="Form">
             <form action="" id="Formulario">
                 <label for="name">Nombre completo:</label>
-                <input type="name" id="name" placeholder="ingresa tu nombre completo" required>
+                <input type="name" id="Name" placeholder="ingresa tu nombre completo" required>
 
                 <br>
                 <br>
 
-                <label for="Nickname">Apodo de juego:</label>
+                <label for="nickname">Apodo de juego:</label>
                 <input type="Nickname" id="Nickname" placeholder="ingresa un apodo de juego" required>
 
 
@@ -40,7 +40,7 @@
                 <br>
                 <br>
 
-                <label for="Password">contraseña:</label>
+                <label for="password">contraseña:</label>
                 <input type="Password" name="Password" id="Password" placeholder="Ingresa una contraseña" required>
 
                 <br>
@@ -50,7 +50,7 @@
 
                 <br>
 
-                <label for="Man">Masculino</label>
+                <label for="man">Masculino</label>
                 <input type="radio" name="Man" id="Man" required>
                 <label for="Woman">Femenino</label>
                 <input type="radio" name="Woman" id="Woman" required>
@@ -59,9 +59,9 @@
                 <br>
 
 
-                <div id="City">
+                <div id="city">
                     <label for="City">Ciudad</label>
-                    <select name="City" id="city">
+                    <select name="City" id="City">
                         <option value=""></option>
                         <option value="">Cali</option>
                         <option value="">Bogota</option>
@@ -85,7 +85,7 @@
 
             <br>
 
-            <ul><a href="../juego-jc/index.html"><button type="submit">Iniciar sesion</button></a>
+            <ul><a href="../juego-jc/index.html" target="_blank" ><button type="submit" onclick="captura()">Iniciar sesion</button></a>
             </ul>
 
 
