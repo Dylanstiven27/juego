@@ -1,8 +1,8 @@
-*{
+* {
     transition: all 0.25s;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body{
 
 }
 
-#encabezado{
+#encabezado {
     width: 60vw;
     min-height: 70px;
     display: flex;
@@ -27,7 +27,7 @@ body{
     padding: 10px;
 }
 
-.opcion{
+.opcion {
     width: 60vw;
     background: #A2D9CE;
     border-radius: 10px;
@@ -36,6 +36,6 @@ body{
     cursor: pointer;
 }
 
-.opcion:hover{
+.opcion:hover {
     background: teal;
 }

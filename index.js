@@ -4,13 +4,13 @@ let puntaje = 0
 cargarPregunta(INDEX_PREGUNTA);
 
 
-function cargarPregunta(index){
+function cargarPregunta(index) {
     objetoPregunta = base_de_preguntas[index];
-    opciones=[...objetoPregunta.distractores];
+    opciones = [...objetoPregunta.distractores];
     opciones.push(objetoPregunta.respuesta);
 
-    for (let i = 0; i < 4; i++){
-        opciones.sort(()=>Math.random() -0.5);
+    for (let i = 0; i < 4; i++) {
+        opciones.sort(() => Math.random() - 0.5);
     }
 
     document.getElementById("pregunta").innerHTML = objetoPregunta.pregunta
@@ -23,27 +23,27 @@ function cargarPregunta(index){
     document.getElementById("opcion-5").innerHTML = opciones[4]
 }
 
-async function seleccionaropcion(index){
+async function seleccionaropcion(index) {
     let validezrespuesta = opciones[index] == objetoPregunta.respuesta;
-    if (validezrespuesta){
+    if (validezrespuesta) {
         await swal.fire({
-            title:"Tu respuesta ha sido correcta",
-            text:"la respuesta ha sido correcta",
+            title: "Tu respuesta ha sido correcta",
+            text: "la respuesta ha sido correcta",
             icon: "success",
         });
         puntaje++
-    }else{
+    } else {
         await swal.fire({
-            title:"Tu respuesta ha sido incorrecta",
-            text:`la respuesta correcta es ${objetoPregunta.respuesta}`,
+            title: "Tu respuesta ha sido incorrecta",
+            text: `la respuesta correcta es ${objetoPregunta.respuesta}`,
             icon: "error",
         });
     }
     INDEX_PREGUNTA++;
-    if(INDEX_PREGUNTA>=base_de_preguntas.length){
+    if (INDEX_PREGUNTA >= base_de_preguntas.length) {
         await swal.fire({
-            title:"El juego a terminado",
-            text:`Tu puntaje fue: "${puntaje}/${base_de_preguntas.length}"`,
+            title: "El juego a terminado",
+            text: `Tu puntaje fue: "${puntaje}/${base_de_preguntas.length}"`,
         });
         INDEX_PREGUNTA = 0;
         puntaje = 0;
