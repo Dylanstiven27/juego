@@ -15,20 +15,21 @@ body{
 }
 
 #encabezado{
-    width: 80vw;
-    min-height: 200px;
+    width: 60vw;
+    min-height: 70px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background: white;
+    align-items: initial;
+    flex-direction: column;
+    background: #A2D9CE;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
 }
 
 .opcion{
-    width: 70vw;
-    background: white;
+    width: 60vw;
+    background: #A2D9CE;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
